@@ -1,0 +1,15 @@
+# LangChain for agents, chains, and memory
+langchain==0.1.0  # استبدلي بالنسخة الأخيرة المتوافقة
+
+# OpenAI for embeddings and LLM
+openai==1.29.0
+
+# FAISS for vector store (Agentic RAG)
+faiss-cpu==1.7.4
+
+# SQLite and pandas for DB operations
+pandas==2.1.0
+sqlite3  # موجودة مع Python عادةً
+
+# (اختياري) Chroma بديل FAISS
+chromadb==0.4.6
